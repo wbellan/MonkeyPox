@@ -1,4 +1,4 @@
 MonkeyPox
 =========
 
-Just messing around type of code!
+Just some messing around type of code!

@@ -10,7 +10,6 @@ module.exports = function(app) {
 	}
 
 	app.get('/loc', function(req, res) {
-		console.log("app.get all loc info");
 		execute(res, "http://ipinfo.io/");
 	});
 
@@ -27,7 +26,6 @@ module.exports = function(app) {
 		the information you are seeking.
 	*/
 	app.get('/loc/:type', function(req, res) {
-		console.log("app.get with the type");
 		execute(res, "http://ipinfo.io/" + req.params.type + "/");
 	});
 }
